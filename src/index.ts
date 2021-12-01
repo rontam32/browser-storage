@@ -1,5 +1,7 @@
 import * as originalStore2 from 'store2';
 import * as cookiesJs from 'js-cookie';
+import '../dist/main';
+ 
 /* tslint:disable:no-namespace */
 declare namespace store {
   export const local: StoreAPI;
