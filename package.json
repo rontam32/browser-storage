@@ -17,6 +17,10 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rontam32/browser-storage.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
