@@ -1,4 +1,10 @@
 {
     "extends": ["tslint:recommended", "tslint-config-prettier"],
-    "no-namespace": false
+    "no-namespace": false,
+    "linterOptions": {
+        "exclude": [
+            "dist/*",
+            "lib/*"
+        ]
+    }
  }
