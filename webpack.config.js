@@ -1,9 +1,9 @@
-const path = require('path');
+// const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
 //   mode: "production",
-//   entry: path.resolve(__dirname, './src/index.ts'),
+  // entry: path.resolve(__dirname, './src/index.ts'),
   module: {
     rules: [
       {
@@ -13,9 +13,8 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.ts', '.js'],
     alias: {
-        'store2/old': 'store2/src/store.old.js',
         'store2/cache': 'store2/src/store.cache.js',
       },
   },
@@ -26,8 +25,8 @@ module.exports = {
     }),
 
   ],
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'src'),
-  },
+  // output: {
+  //   filename: 'bundle.js',
+  //   path: path.resolve(__dirname, 'dist'),
+  // },
 };

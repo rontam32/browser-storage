@@ -1,6 +1,6 @@
 import * as originalStore2 from 'store2';
 import * as cookiesJs from 'js-cookie';
-import './bundle';
+import '../dist/main.js';
 
 /* tslint:disable:no-namespace */
 declare namespace store {

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es6",
+    "module": "commonjs",
     "declaration": true,
     "outDir": "lib",
     "strict": true,
@@ -9,5 +9,6 @@
     "allowJs": true
   },
   "include": ["src/**/*", "dist/**/*"],
-  "exclude": [ "**/_tests_/*"]
+  "exclude": [ "**/_tests_/*"],
+  "lib": ["es2018", "dom"],
 }
