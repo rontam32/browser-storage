@@ -5,9 +5,8 @@
     "declaration": true,
     "outDir": "lib",
     "strict": true,
-    "allowJs": true,
     "moduleResolution": "node",
   },
-  "include": ["src/*"],
-  "exclude": ["node_modules", "**/dist", "**/_tests_/*"]
+  "include": ["src/**/*"],
+  "exclude": [ "**/_tests_/*"]
 }
