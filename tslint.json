@@ -3,8 +3,9 @@
     "no-namespace": false,
     "linterOptions": {
         "exclude": [
-            "dist/*",
-            "lib/*"
+            "dist/**/*",
+            "lib/**/*",
+            "index.d.ts"
         ]
     }
  }
