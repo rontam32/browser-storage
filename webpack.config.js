@@ -1,4 +1,4 @@
-// const path = require('path');
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
@@ -24,10 +24,10 @@ module.exports = {
       'window.store': 'store2',
       store: 'store2',
     }),
-    
+
   ],
-//   output: {
-//     filename: 'bundle.js',
-//     path: path.resolve(__dirname, 'dist'),
-//   },
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'src'),
+  },
 };
